@@ -6,12 +6,12 @@ sudo apt-get install build-essential autoconf ccache gawk gperf mesa-utils zip u
     libavahi-client-dev libavahi-common-dev libavcodec-dev libavformat-dev \
     libavutil-dev libbison-dev:armhf libbluray-dev:armhf libboost1.49-dev \
     libbz2-dev:armhf libc-dev-bin libc6-dev:armhf libcaca-dev libcairo2-dev \
-    libcdio-dev libclalsadrv-dev libcrypto++-dev libcups2-dev libcurl3-gnutls-dev \
+    libcdio-dev libclalsadrv-dev libcrypto++-dev libcups2-dev libcurl4-gnutls-dev \
     libdbus-1-dev libdbus-glib-1-dev libdirectfb-dev libdrm-dev libegl1-mesa-dev \
     libelf-dev libenca-dev libept-dev libevent-dev libexpat1-dev libflac-dev:armhf \
     libfontconfig1-dev libfreetype6-dev libfribidi-dev libgconf2-dev \
     libgcrypt11-dev libgdk-pixbuf2.0-dev libgl1-mesa-dev libgles2-mesa-dev \
-    libglew-dev:armhf libglewmx-dev:armhf libglib2.0-dev libglu1-mesa-dev \
+    libglew1.6-dev:armhf libglewmx1.6-dev:armhf libglib2.0-dev libglu1-mesa-dev \
     libgnome-keyring-dev libgnutls-dev libgpg-error-dev libgtk2.0-dev libhal-dev \
     libhunspell-dev:armhf libice-dev:armhf libicu-dev libidn11-dev libiso9660-dev \
     libjasper-dev libjbig-dev:armhf libjconv-dev libjpeg8-dev:armhf libkrb5-dev \
@@ -40,8 +40,6 @@ sudo apt-get install build-essential autoconf ccache gawk gperf mesa-utils zip u
     x11proto-record-dev x11proto-render-dev x11proto-scrnsaver-dev \
     x11proto-xext-dev x11proto-xf86vidmode-dev x11proto-xinerama-dev xtrans-dev \
     zlib1g-dev:armhf
-
-
 
 echo "######### Cleaning up #######################"
 
