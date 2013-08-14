@@ -111,3 +111,13 @@ echo "##########  Fix up some of the make files ###########"
 
 sed -i 's/-msse2//' lib/libsquish/Makefile
     sed -i 's/-DSQUISH_USE_SSE=2//' lib/libsquish/Makefile
+
+
+echo "######### Make XBMC #################"
+
+sudo make
+
+
+echo "######### Install XBMC as root ################"
+
+sudo make install
