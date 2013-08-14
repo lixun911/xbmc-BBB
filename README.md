@@ -1,4 +1,4 @@
 xbmc-BBB
 ========
 
-install xbmc on beaglebone black
+install xbmc on beaglebone black  (not finish yet)
